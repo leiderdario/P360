@@ -85,7 +85,7 @@ export default function Clients() {
       className="relative py-24 lg:py-32 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-zinc-950 to-[#0a0a0a]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#6a6b6a] via-gray-900 to-[#646363]" />
       <div className="absolute inset-0 industrial-pattern opacity-20" />
       
       {/* Decorative */}

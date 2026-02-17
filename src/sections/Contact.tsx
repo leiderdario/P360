@@ -95,7 +95,7 @@ export default function Contact() {
       className="relative py-24 lg:py-32 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-[#0a0a0a]" />
+      <div className="absolute inset-0 bg-[#404040]" />
       <div className="absolute inset-0 industrial-pattern opacity-30" />
       
       {/* Decorative */}

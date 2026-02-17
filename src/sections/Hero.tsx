@@ -52,7 +52,7 @@ export default function Hero() {
       <div className="absolute inset-0 industrial-pattern opacity-50" />
       
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#0a0a0a]/95 to-red-950/20" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#505050] via-[#b0b1b0]/95 to-[#b0b1b0]/20" />
       
       {/* Decorative Elements */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-red-600/10 rounded-full blur-3xl" />
@@ -71,7 +71,7 @@ export default function Hero() {
           <div className="space-y-8">
             {/* Badge */}
             <div className="reveal opacity-0">
-              <span className="inline-flex items-center gap-2 px-4 py-2 bg-red-600/10 border border-red-600/30 rounded-full text-red-500 text-sm font-medium">
+              <span className="inline-flex items-center gap-2 px-4 py-2 bg-red-600/10 border border-red-600 rounded-full text-white text-sm font-medium">
                 <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
                 Producción Porcina de Principio a Fin
               </span>
@@ -90,7 +90,7 @@ export default function Hero() {
 
             {/* Subheadline */}
             <div className="reveal opacity-0" style={{ animationDelay: '0.2s' }}>
-              <p className="text-lg sm:text-xl text-gray-400 max-w-xl leading-relaxed">
+              <p className="text-lg sm:text-xl text-white max-w-xl leading-relaxed">
                 Proveemos cerdo de la más alta calidad para consumo directo y reventa. 
                 Atendemos restaurantes, carnicerías, supermercados y hogares en Mahates 
                 y toda la región.
@@ -118,7 +118,7 @@ export default function Hero() {
             {/* Features */}
             <div className="reveal opacity-0 flex flex-wrap gap-6 pt-4" style={{ animationDelay: '0.4s' }}>
               {features.map((feature, index) => (
-                <div key={index} className="flex items-center gap-2 text-gray-400">
+                <div key={index} className="flex items-center gap-2 text-white">
                   <feature.icon className="w-5 h-5 text-red-500" />
                   <span className="text-sm">{feature.text}</span>
                 </div>

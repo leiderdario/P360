@@ -53,7 +53,7 @@ export default function Navbar({ scrollY }: NavbarProps) {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-[#0a0a0a]/95 backdrop-blur-md border-b border-red-600/20'
+          ? 'bg-[#404040]/95 backdrop-blur-md border-b border-red-600/20'
           : 'bg-transparent'
       }`}
     >
@@ -127,7 +127,7 @@ export default function Navbar({ scrollY }: NavbarProps) {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden absolute top-full left-0 right-0 bg-[#0a0a0a]/98 backdrop-blur-lg border-b border-red-600/20 transition-all duration-300 ${
+        className={`lg:hidden absolute top-full left-0 right-0 bg-[#404040]/98 backdrop-blur-lg border-b border-red-600/20 transition-all duration-300 ${
           isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
         }`}
       >

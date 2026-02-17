@@ -65,7 +65,7 @@ export default function About() {
       className="relative py-24 lg:py-32 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-zinc-950 to-[#0a0a0a]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#8f928f] via-zinc-950 to-[#8a6e6e]" />
       <div className="absolute inset-0 industrial-pattern opacity-20" />
       
       {/* Decorative Elements */}

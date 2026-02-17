@@ -4,8 +4,8 @@
 
 :root {
   /* PORC360 Brand Colors */
-  --porc-black: #0a0a0a;
-  --porc-dark: #111111;
+  --porc-black: #404040;
+  --porc-dark: #333333;
   --porc-red: #dc2626;
   --porc-red-light: #ef4444;
   --porc-silver: #a1a1aa;
@@ -13,24 +13,24 @@
   --porc-white: #fafafa;
   
   /* shadcn theme */
-  --background: 0 0% 4%;
+  --background: 0 0% 25%;
   --foreground: 0 0% 98%;
-  --card: 0 0% 6%;
+  --card: 0 0% 20%;
   --card-foreground: 0 0% 98%;
-  --popover: 0 0% 6%;
+  --popover: 0 0% 20%;
   --popover-foreground: 0 0% 98%;
   --primary: 0 84% 50%;
   --primary-foreground: 0 0% 98%;
-  --secondary: 0 0% 14%;
+  --secondary: 0 0% 15%;
   --secondary-foreground: 0 0% 98%;
-  --muted: 0 0% 14%;
+  --muted: 0 0% 15%;
   --muted-foreground: 0 0% 63%;
   --accent: 0 84% 50%;
   --accent-foreground: 0 0% 98%;
   --destructive: 0 62% 30%;
   --destructive-foreground: 0 0% 98%;
-  --border: 0 0% 14%;
-  --input: 0 0% 14%;
+  --border: 0 0% 18%;
+  --input: 0 0% 18%;
   --ring: 0 84% 50%;
   --radius: 0.5rem;
 }
@@ -40,7 +40,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-[#0a0a0a] text-white antialiased;
+    @apply bg-[#404040] text-white antialiased;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
   html {
@@ -54,7 +54,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: #404040;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -171,7 +171,7 @@
 
 /* Glass effect */
 .glass-effect {
-  background: rgba(17, 17, 17, 0.8);
+  background: rgba(64, 64, 64, 0.8);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(220, 38, 38, 0.2);
 }
